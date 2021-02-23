@@ -1,6 +1,6 @@
 module "network" {
   source  = "app.terraform.io/PIOTRGROHS-training/network/google"
-  version = "2.5.0"
+  version = "3.1.1"
   network_name = "gaurav-network"
   project_id = var.project
   # insert required variables here
